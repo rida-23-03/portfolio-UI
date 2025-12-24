@@ -208,12 +208,15 @@ header{
 
   .container {
     width: 100%;
-    margin: 60px auto;
+    margin: 40px auto;
+    height: auto;
   }
 
   header {
+    position: static;
     flex-direction: column;
     gap: 15px;
+    text-align: center;
   }
 
   .navbar a {
@@ -225,6 +228,8 @@ header{
     flex-direction: column;
     text-align: center;
     gap: 30px;
+    height: auto;
+    padding-top: 20px;
   }
 
   .home-detail h1 {
@@ -267,4 +272,4 @@ header{
   }
 }
 
-
+}

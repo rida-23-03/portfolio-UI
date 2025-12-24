@@ -16,7 +16,7 @@ body {
 .container{
     position: relative;
     width: 80%;
-    min-height: 80vh;
+    height: 80vh;
     margin: auto;
     background:rgba(255, 255, 255, 0.111);
     border-radius: 30px;
@@ -197,6 +197,7 @@ header{
     font-size:25px;
     line-height: 1.6;
 }
+
 
 
 

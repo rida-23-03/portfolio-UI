@@ -11,16 +11,16 @@ html,body{
 body {
   background: url("./backgroundd.jpg") no-repeat center / cover;
   background-attachment:fixed;
-  padding: 50px;
+  
 }
 .container{
     position: relative;
     width: 80%;
     height: 80vh;
-    margin: auto;
+    margin: 50px auto;
     background:rgba(255, 255, 255, 0.111);
     border-radius: 30px;
-    margin-bottom:90px;
+   
 
 }
 header{
@@ -197,6 +197,7 @@ header{
     font-size:25px;
     line-height: 1.6;
 }
+
 
 
 

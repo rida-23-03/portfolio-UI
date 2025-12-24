@@ -5,21 +5,19 @@
     font-family: "Poppins",sans-serif;
 
 }
-html,body{
-    min-height:100%;
-}
 body {
+  min-height: 100vh;
   background: url("./backgroundd.jpg") no-repeat center / cover;
-  background-attachment:fixed;
-  
+  padding: 50px;
 }
 .container{
     position: relative;
     width: 80%;
-    margin: 50px auto;
+    height: 80vh;
+    margin: auto;
     background:rgba(255, 255, 255, 0.111);
     border-radius: 30px;
-   
+    margin-bottom:90px;
 
 }
 header{
@@ -59,7 +57,7 @@ header{
 .home{
     display: flex;
     align-items: center;
-    min-height: 80vh;
+    height: 100%;
     gap: 50px;
     padding: 50px 5% 0;
     color: #fff;
@@ -135,6 +133,7 @@ header{
     width:100%;
     height:100%;
     object-fit:cover;
+
 }
 .about {
   display: flex;
@@ -143,7 +142,9 @@ header{
   color: #fff;
 }
 .about-box {
+
     width: 80%;
+    
     background:rgba(255, 255, 255, 0.111);
     border-radius: 30px;
     padding:40px;
@@ -164,6 +165,7 @@ header{
 }
 .skill-box{
     width:80%;
+   
     background:rgba(255, 255, 255, 0.111);
     border-radius: 30px;
     padding:40px;
@@ -184,6 +186,7 @@ header{
 }
 .contact-box{
     width:80%;
+    
     background:rgba(255, 255, 255, 0.111);
     border-radius: 30px;
     padding:40px;
@@ -196,10 +199,3 @@ header{
     font-size:25px;
     line-height: 1.6;
 }
-
-
-
-
-
-
-

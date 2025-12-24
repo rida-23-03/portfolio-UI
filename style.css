@@ -6,7 +6,7 @@
 
 }
 body {
-  height: 100vh;
+  min-height: 100vh;
   background: url("./backgroundd.jpg") no-repeat center / cover;
   padding: 50px;
 }
@@ -194,5 +194,6 @@ header{
     font-size:25px;
     line-height: 1.6;
 }
+
 
 
